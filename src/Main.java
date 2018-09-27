@@ -6,7 +6,7 @@ public class Main {
 
         Deck deck = new Deck();
         Random rand = new Random();
-
+    //  kommentar til andras
         System.out.println("The card you picked is: " + deck.getCard(rand.nextInt(51))) ;
     }
 }
